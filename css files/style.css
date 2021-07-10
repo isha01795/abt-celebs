@@ -93,7 +93,7 @@ body {
   height: 9vh;
 
 }
-.head span {
+#head-tag {
   font: italic normal bold 3rem "Baloo Bhai 2";
   text-transform: uppercase;
   text-decoration: underline;

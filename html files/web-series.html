@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../css files/style.css">
     <link rel="stylesheet" href="../css files/movie.css">
     <link rel="stylesheet" href="../css files/series.css">
+     <!-- animate on scroll link -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
           <!-- favicon link -->
           <link rel="icon" type="image/png" sizes="32x32" href="../favicon/android-icon-36x36.png">
           <link rel="icon" type="image/png" sizes="96x96" href="../favicon/android-icon-48x48.png">
@@ -45,8 +47,8 @@
       <!-- heading section -->
       <div class="heading">
         <p class="head">
-          know everything about
-          <span
+          <span class="first-head"> know everything about</span>
+          <span id="head-tag"
             ><img src="../images/manoj-logo.png" alt="image-not-found" /> manoj vajpayee</span
           >
         </p>
@@ -71,7 +73,7 @@
     <h1>WEB-SERIES</h1>
     <div class="block">
       
-        <div class="box series-block">
+        <div class="box series-block " data-aos="zoom-out">
             <iframe  src="https://www.youtube.com/embed/P0P_Sfju0-Q?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
             </iframe> <p class="series-name">ray</p>
         <p class="about-series">
@@ -79,18 +81,28 @@
         </p></div>
        
         
-        <div class="box series-block">
+        <div class="box series-block"data-aos="zoom-out">
             <iframe src="https://www.youtube.com/embed/XatRGut65VI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             <p class="series-name">the family man</p>
             <p class="about-series">The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), which is a part of the National Investigation Agency (NIA) of India.</p>
         </div>
-        <div class="box series-block">
+        <div class="box series-block"data-aos="zoom-out">
             <iframe  src="https://www.youtube.com/embed/NGf_B81Hc2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             <p class="series-name">the family man-2</p>
             <p class="about-series">The Family Man follows the story of Srikant Tiwari, who works as a senior officer in the Threat Analysis and Surveillance Cell (TASC), which is a part of the National Investigation Agency (NIA) of India.</p>
         </div>  
         
     </div>
+    <hr>
+    <footer><div class="footer">&copy; 2021 | abt-celebs</div></footer>
 </body>
 <script src="../js files/script.js"></script>
+<!-- aniamte on scroll link -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 100,
+    duration: 400,
+  });
+</script>
 </html>

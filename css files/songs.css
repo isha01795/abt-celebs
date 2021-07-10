@@ -5,6 +5,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  text-decoration: none;
 }
 body {
   background: url(../images/bac.jpg);
@@ -12,6 +13,43 @@ body {
   width: 100vw;
   overflow-x: hidden;
 }
+
+.buttons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* position: absolute; */
+  top: 6vw;
+  left: 20vw;
+
+}
+.button {
+  
+  /* margin: 1vw 0vw; */
+  font-family: "Baloo Bhai 2";
+  font-size: 1.1rem;
+  padding: 0.5vw;
+  border: none;
+  width: 16vw;
+  border-radius: 7%;
+  color: white;
+  cursor: pointer;
+}
+
+.movies-buttton {
+  background-color: rgb(199, 44, 44);
+}
+.series-button {
+  background-color: rgb(15, 119, 110);
+}
+
+.songs-button {
+  background-color: rgb(42, 37, 119);
+}
+.home-button{
+    background-color: rgb(163, 84, 19);
+}
+
 
 .heading {
   text-transform: uppercase;
@@ -25,8 +63,9 @@ body {
 
 #player {
   width: 30vw;
-  height: 70vh;
-  margin: 3vw auto auto 15vw;
+  height: 68vh;
+  margin-top: 8vw;
+  margin-left: 8vw;
   border-radius: 30px;
   background-color: white;
 }
@@ -61,7 +100,7 @@ img {
   box-shadow: 0px 2px 4px 3px rgb(65, 63, 63);
 }
 
-.button {
+.song-button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -95,6 +134,12 @@ img {
   background-color: #bab6e6;
   color: rgb(179, 36, 36);
 }
+.footer{
+  background-color:rgb(0, 0, 0);
+  padding: 1.5vw;
+  text-align: center;
+  color: white;
+}
 .animation {
   animation: rotate 3s linear infinite;
 }
@@ -104,5 +149,30 @@ img {
   }
   100% {
     transform: rotate(359deg);
+  }
+}
+
+
+@media screen and (max-width:1100px) {
+  #player{
+    width: 50vw;
+   
+  }
+  .button{
+    width: 30vw;
+  }
+}
+@media screen and (max-width:550px){
+   .button{
+    
+  margin:1vw 5vw;
+   }
+   #player{
+     width: 65vw;
+   }
+}
+@media screen and (max-width:550px){
+  #player{
+    width: 80vw;
   }
 }

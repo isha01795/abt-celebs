@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="../css files/songs.css" />
+     <!-- animate on scroll link -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- icon link-- -->
     <link
       rel="stylesheet"
@@ -24,22 +26,46 @@
   
     
     <h1 class="heading">Best songs</h1>
+    <p class="buttons" data-aos="zoom-in">
+      <a href="../index.html" target="_blank">
+        <button class="button home-button">Home</button></a
+      >
+      <a href="../index.html" target="_blank">
+        <button class="button movies-buttton">Movies</button></a
+      >
+      <a href="/" target="_blank">
+        <button class="button songs-button">Songs</button></a
+      >
+      <a href="web-series.html" target="_blank">
+        <button class="button series-button">Web-Series</button></a
+      >
+    
+    </p>
     <div class="container">
-      <div class="box" id="player">
+      <div class="box" id="player"  data-aos="zoom-in">
         <div id="name">matkat maya ko ahankar</div>
         <div id="artist">kabir cafe'</div>
         <div class="image">
           <img src="../images/matkar.jpg" alt="no image" title="song" />
         </div>
         <audio class="song" src="../music/matkar.mp3"></audio>
-        <div class="button">
+        <div class="song-button">
           <i class="fa fa-backward fa-lg" id="back"></i>
           <i class="fa fa-play fa-lg" id="play"></i>
           <i class="fa fa-forward fa-lg" id="forw"></i>
         </div>
       </div>
-    </div>
+    </div> <hr>
+    <footer><div class="footer">&copy; 2021 | abt-celebs</div></footer>
   </body>
   
   <script src="../js files/songs.js"></script>
+  <!-- aniamte on scroll link -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 500,
+    });
+  </script>
 </html>

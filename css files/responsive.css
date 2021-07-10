@@ -15,23 +15,22 @@
         width: 30vw;
     }
   
-.head{
-    display: none;
-}
+
 .buttons{
     display: flex;
     flex-flow: row wrap;
-    position: relative;
+    position: absolute;
+    top: 33vw;
    
 }
 .button{
-    width: 40vw;
+    width: 30vw;
 }
 
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:520px){
     .hit-section-cards{
         width: 70vw;
     }
@@ -42,6 +41,22 @@
     .hits-heading{
         font-size: 10vw;
     }
+    .first-head{
+  visibility: hidden;
+    }
+   #head-tag{
+       position: absolute;
+    top: -18vw;
+      font-size: 2rem;
+   }
+   #head-tag img{
+       width: 30vw;
+       height: 30vw;
+    
+   }
+   .buttons{
+       top: 46vw;
+   }
     
 }
 
@@ -51,6 +66,7 @@
     .box{
         height: 30vw;
     }
+  
 }
 
 @media screen and (max-width:1200px){
@@ -61,7 +77,9 @@
    .block .series-block{
        height: 90vh;
    }
-
+   .head span{
+       display: block;
+   }
 }
 
 
@@ -91,7 +109,15 @@
     .about-series{
         display: none;
     }
+    .button{
+        width: 40vw;
+    }
 
+}
+@media screen and (max-width:350px){
+    .buttons{
+        top:70vw;
+    }
 }
 
 
