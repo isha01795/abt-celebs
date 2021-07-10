@@ -1,0 +1,98 @@
+@media screen and (max-width:800px) {
+    .card img{
+        display: none;
+    }
+    .sub-head{
+        display: none;
+        visibility: hidden;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .hit-section-cards{
+        height: 45vh;
+        width: 30vw;
+    }
+  
+.head{
+    display: none;
+}
+.buttons{
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+   
+}
+.button{
+    width: 40vw;
+}
+
+}
+
+
+@media screen and (max-width:500px){
+    .hit-section-cards{
+        width: 70vw;
+    }
+    .card-heading{
+        margin-bottom: 3vh;
+        font-size: 10vw;
+    }
+    .hits-heading{
+        font-size: 10vw;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1500px){
+    .box{
+        height: 30vw;
+    }
+}
+
+@media screen and (max-width:1200px){
+   .box{
+       width: 35vw;
+       height: 40vw;
+   }
+   .block .series-block{
+       height: 90vh;
+   }
+
+}
+
+
+@media screen and (max-width:1050px){
+    .box{
+        height: 50vw;
+    }
+}
+@media screen and (max-width:780px){
+    .box{
+        width: 80vw;
+        height: 60vh;
+    }
+    .block .series-block{
+        height: 100vh;
+    }
+ 
+
+}
+@media screen and (max-width:412px){
+    .box{
+        height: 70vh;
+    }
+    .block .series-block{
+        height: 60vh;
+    }
+    .about-series{
+        display: none;
+    }
+
+}
+
+
+

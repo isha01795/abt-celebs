@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Tourney:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+:root{
+    --bg-color: rgb(229, 252, 253);
+     
+}
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+
+/* carousel container */
+
+.slides img {
+    opacity: 60%;
+    height: 50vh;
+    width: 100vw;
+    animation: fade 2s ease-in infinite;
+  }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 20vh;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s ease;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(83, 83, 83, 0.8);
+    border-radius: 50%;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #252424;
+  }
+  
+  /*heading section  */
+.heading {
+  z-index: 2;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11vh;
+  left: 16vw;
+  animation: head-zoominout 1s ease-in-out;
+}
+
+.heading p {
+  font-size: 1.5rem;
+  font-family: "Tourney", cursive;
+  text-transform: capitalize;
+  color: rgb(14, 53, 71);
+}
+.heading .head {
+  color: rgb(2, 9, 49);
+  font: normal bold 2.5rem "Exo 2";
+}
+.head img {
+  width: 5vw;
+  height: 9vh;
+
+}
+.head span {
+  font: italic normal bold 3rem "Baloo Bhai 2";
+  text-transform: uppercase;
+  text-decoration: underline;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 26vh;
+
+}
+.button {
+  margin: 1vw 0vw;
+  font-family: "Baloo Bhai 2";
+  font-size: 1.1rem;
+  padding: 0.5vw;
+  border: none;
+  width: 16vw;
+  border-radius: 7%;
+  color: white;
+  cursor: pointer;
+}
+
+.movies-buttton {
+  background-color: rgb(199, 44, 44);
+}
+.series-button {
+  background-color: rgb(15, 119, 110);
+}
+
+.songs-button {
+  background-color: rgb(42, 37, 119);
+}
+.home-button{
+    background-color: rgb(163, 84, 19);
+}
+
+
+/* cards section-- */
+.cards {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2vw 5vw;
+}
+.card {
+  display: flex;
+  margin: 2vw;
+  box-shadow: 1px 1px 4px 2px rgb(139, 139, 139);
+ 
+}
+.card img {
+  border-radius: 50%;
+  width: 20vw;
+  height: inherit;
+}
+
+.card-text {
+  margin: 1vw 2vw;
+  font-size: 1.2rem;
+  font-family: "Baloo Bhai 2";
+}
+.text span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.card-heading {
+  width: 60vw;
+  height: 5vh;
+  text-align: center;
+  padding: 1rem;
+  font: normal bold 2rem "Tourney";
+}
+.card .card-mid {
+  left: 66vw;
+}
+
+/* hit section */
+.hit-section {
+  display: flex;
+  flex-flow: row wrap;
+  overflow-y: auto;
+  justify-content: center;
+}
+
+.hit-section-cards {
+  width: 20vw;
+  height: 40vh;
+  box-shadow: 1px 2px 3px 1px rgb(136, 136, 136);
+  margin: 2vh;
+  background-color: rgb(191, 220, 253);
+}
+.hit-section-cards a {
+  width: inherit;
+  color: black;
+  text-decoration: none;
+}
+img {
+  width: inherit;
+  height: 30vh;
+}
+
+/* social-media-link-section */
+.social-media-block {
+  width: 100vw;
+  background-color: black;
+}
+.social-media-block-heading {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 1vh;
+  font-size: x-large;
+  font-family: "Baloo Bhai 2";
+}
+
+.social-media-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.link {
+  border-radius: 10px;
+  background-color: rgb(216, 216, 216);
+  margin: 0.5rem 1rem;
+  padding: 10px;
+  line-height: 1vh;
+}
+
+.link:hover {
+  background-color: rgb(255, 255, 254);
+}
+.social-site {
+  display: inline-block;
+}
+#imdb {
+  color: #f3ce13;
+}
+#tw {
+  color: #1da1f2;
+}
+#fb {
+  color: #4267b2;
+}
+#in {
+  color: #8a3ab9;
+}
+
+/* footer section */
+
+.footer  {
+  width: 100vw;
+  text-align: center;
+ background-color: var(--bg-color);
+  padding: 1.5vw  ;
+}
+
+/* animation section-- */
+
+@keyframes head-zoominout {
+  0% {
+    transform: scaleX(0.3);
+  }
+  99% {
+    transform: scaleX(1);
+  }
+}
+
+
+@keyframes fade {
+  from {
+    opacity: 0.8;
+  }
+  to {
+    opacity: 0.5;
+  }
+}

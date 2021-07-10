@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Tourney:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    margin: 5vh;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.block{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+   
+}
+.box{
+    width: 25vw;
+    height: 55vh;
+    box-shadow:1px 3px 4px 2px rgb(173, 173, 173) ;
+    margin: 5VW 3vw;
+}
+.box img{
+    width: inherit;
+    height: 30vh;
+}
+.movie-name{
+    cursor: pointer;
+    font: bold 1.1rem 'Baloo Bhai 2' ;
+    text-transform: capitalize;
+    text-align: center;
+}
+.overview{
+    padding: 10px;
+}
+.overview span{
+    color: rgb(10, 16, 128);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    font-family: 'Exo 2';
+}
