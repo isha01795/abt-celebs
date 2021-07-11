@@ -120,17 +120,17 @@ body {
 }
 
 .movies-buttton {
-  background-color: rgb(199, 44, 44);
+  background-color: rgba(199, 44, 44, 0.8);
 }
 .series-button {
-  background-color: rgb(15, 119, 110);
+  background-color: rgba(15, 119, 110, 0.8);
 }
 
 .songs-button {
-  background-color: rgb(42, 37, 119);
+  background-color: rgba(43, 37, 119, 0.8);
 }
 .home-button{
-    background-color: rgb(163, 84, 19);
+    background-color: rgba(163, 84, 19, 0.8);
 }
 
 
@@ -144,6 +144,7 @@ body {
   display: flex;
   margin: 2vw;
   box-shadow: 1px 1px 4px 2px rgb(139, 139, 139);
+  background-color: white;
  
 }
 .card img {
@@ -190,7 +191,7 @@ body {
 .hit-section-cards a {
   width: inherit;
   color: black;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 img {
   width: inherit;

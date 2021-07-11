@@ -24,6 +24,8 @@ h1{
     height: 55vh;
     box-shadow:1px 3px 4px 2px rgb(173, 173, 173) ;
     margin: 5VW 3vw;
+    background-color: white;
+    position: relative;
 }
 .box img{
     width: inherit;
@@ -43,4 +45,18 @@ h1{
     font-size: 1.1rem;
     text-transform: capitalize;
     font-family: 'Exo 2';
+}
+.trailer-button{
+    position: absolute;
+    width: 90%;
+    border:2px solid rgb(99, 154, 190);
+    background-color: rgba(0, 0, 0, 0.719);
+    color:#ffffff;
+border-radius: 10px;
+    padding: 8px;
+    left: 0.5vw;
+    bottom: 0.2%;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Baloo Bhai 2' ;
 }

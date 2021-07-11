@@ -1,124 +1,118 @@
-@media screen and (max-width:800px) {
-    .card img{
-        display: none;
-    }
-    .sub-head{
-        display: none;
-        visibility: hidden;
-    }
+@media screen and (max-width: 1500px) {
+  .box {
+    /* height: 50vh; */
+  }
 }
 
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 35vw;
+  }
+  .block .series-block {
+    height: 90vh;
+  }
+  .head span {
+    display: block;
+  }
+}
 
-@media screen and (max-width:700px){
-    .hit-section-cards{
-        height: 45vh;
-        width: 30vw;
-    }
-  
+@media screen and (max-width: 800px) {
+  .box {
+    /* width: 80vw; */
+  }
+  .trailer-button {
+    width: 93%;
+  }
+  .block .series-block {
+    height: 100vh;
+  }
+  .card img {
+    display: none;
+  }
+  .sub-head {
+    display: none;
+    visibility: hidden;
+  }
+}
 
-.buttons{
+@media screen and (max-width: 700px) {
+  .hit-section-cards {
+    height: 40vh;
+    width: 30vw;
+  }
+  .box{
+      height: 60vh;
+  }
+
+  .buttons {
     display: flex;
     flex-flow: row wrap;
     position: absolute;
     top: 33vw;
-   
-}
-.button{
+  }
+  .button {
     width: 30vw;
+  }
 }
 
-}
-
-
-@media screen and (max-width:520px){
-    .hit-section-cards{
-        width: 70vw;
-    }
-    .card-heading{
-        margin-bottom: 3vh;
-        font-size: 10vw;
-    }
-    .hits-heading{
-        font-size: 10vw;
-    }
-    .first-head{
-  visibility: hidden;
-    }
-   #head-tag{
-       position: absolute;
+@media screen and (max-width: 520px) {
+  .hit-section-cards {
+    width: 70vw;
+  }
+  .card-heading {
+    margin-bottom: 3vh;
+    font-size: 10vw;
+  }
+  .hits-heading {
+    font-size: 10vw;
+  }
+  .first-head {
+    visibility: hidden;
+  }
+  #head-tag {
+    position: absolute;
     top: -18vw;
-      font-size: 2rem;
-   }
-   #head-tag img{
-       width: 30vw;
-       height: 30vw;
-    
-   }
-   .buttons{
-       top: 46vw;
-   }
-    
+    font-size: 2rem;
+  }
+  #head-tag img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .buttons {
+    top: 46vw;
+  }
+  .box{
+      width: 60vw;
+      height: 55vh;
+  }
 }
 
+@media screen and (max-width: 412px) {
 
-
-@media screen and (max-width:1500px){
-    .box{
-        height: 30vw;
-    }
-  
+  .block .series-block {
+    margin-bottom: 4vh;
+    height: 60vh;
+  }
+  .about-series {
+    display: none;
+  }
+  .button {
+    width: 40vw;
+  }
+  .trailer-button {
+    width: 90%;
+  }
 }
-
-@media screen and (max-width:1200px){
-   .box{
-       width: 35vw;
-       height: 40vw;
-   }
-   .block .series-block{
-       height: 90vh;
-   }
-   .head span{
-       display: block;
-   }
+@media screen and (max-width: 350px) {
+  .buttons {
+    top: 70vw;
+    width: 60vw;
+  }
+  .box {
+    height: 60vmax;
+  }
+  .overview{
+      font-size: 0.8rem;
+  }
 }
-
-
-@media screen and (max-width:1050px){
-    .box{
-        height: 50vw;
-    }
-}
-@media screen and (max-width:780px){
-    .box{
-        width: 80vw;
-        height: 60vh;
-    }
-    .block .series-block{
-        height: 100vh;
-    }
- 
-
-}
-@media screen and (max-width:412px){
-    .box{
-        height: 70vh;
-    }
-    .block .series-block{
-        height: 60vh;
-    }
-    .about-series{
-        display: none;
-    }
-    .button{
-        width: 40vw;
-    }
-
-}
-@media screen and (max-width:350px){
-    .buttons{
-        top:70vw;
-    }
-}
-
-
 

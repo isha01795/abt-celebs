@@ -7,28 +7,23 @@ const forw = document.getElementById("forw");
 const back = document.getElementById("back");
 
 
-
 const songs = [
     {
-        title: "matkar",
-        name: "matkar maya ko ahankar",
-        artist: "kabir cafe'",
+        title: "dega-jaan",
+        name: "Dega Jaan- Family man",
+        artist: "Mellow-D, Shreya Gosha",
     },
     {
-        title: "badal",
-        name: "kabhi jo badal barse",
-        artist: "arijit singh"
+        title: "womaniya",
+        name: "Womaniya- Gangs of Wasseypur ",
+        artist: "Rekha Jha, Khusboo Raaj"
     },
     {
-        title: "hawayein",
-        name: "hawayein",
-        artist: "arijit singh",
+        title: "keh ke lunga",
+        name: "Keh Ke Lunga-Ganga Of Wasseypur",
+        artist: "Amit Trivedi, Sneha khanwalkar",
     },
-    {
-        title: "man_mera",
-        name: "mann mera",
-        artist: "gajendra verma",
-    },
+
    
 
 
