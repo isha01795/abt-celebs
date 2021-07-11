@@ -1,8 +1,4 @@
-@media screen and (max-width: 1500px) {
-  .box {
-    /* height: 50vh; */
-  }
-}
+
 
 @media screen and (max-width: 1200px) {
   .box {
@@ -17,12 +13,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .box {
-    /* width: 80vw; */
-  }
-  .trailer-button {
-    width: 93%;
-  }
+
+ 
   .block .series-block {
     height: 100vh;
   }
@@ -40,9 +32,7 @@
     height: 40vh;
     width: 30vw;
   }
-  .box{
-      height: 60vh;
-  }
+ 
 
   .buttons {
     display: flex;
@@ -82,8 +72,8 @@
     top: 46vw;
   }
   .box{
-      width: 60vw;
-      height: 55vh;
+      width: 70vw;
+      
   }
 }
 
@@ -99,20 +89,14 @@
   .button {
     width: 40vw;
   }
-  .trailer-button {
-    width: 90%;
-  }
+
 }
 @media screen and (max-width: 350px) {
   .buttons {
     top: 70vw;
     width: 60vw;
   }
-  .box {
-    height: 60vmax;
-  }
-  .overview{
-      font-size: 0.8rem;
-  }
+
+
 }
 

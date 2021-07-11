@@ -21,7 +21,7 @@ h1{
 }
 .box{
     width: 25vw;
-    height: 55vh;
+    /* height: 65vh; */
     box-shadow:1px 3px 4px 2px rgb(173, 173, 173) ;
     margin: 5VW 3vw;
     background-color: white;
@@ -46,17 +46,18 @@ h1{
     text-transform: capitalize;
     font-family: 'Exo 2';
 }
+.box a{
+    text-decoration: none;
+
+}
 .trailer-button{
-    position: absolute;
-    width: 90%;
+   position: inherit;
     border:2px solid rgb(99, 154, 190);
     background-color: rgba(0, 0, 0, 0.719);
     color:#ffffff;
 border-radius: 10px;
     padding: 8px;
-    left: 0.5vw;
-    bottom: 0.2%;
-    text-decoration: none;
+  
     text-align: center;
     font-family:'Baloo Bhai 2' ;
 }
